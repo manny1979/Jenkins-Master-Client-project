@@ -12,6 +12,6 @@ mvn clean package sonar:sonar \
 
 ## Clean, Build, Test and Deploy(to Nexus)
 mvn clean package sonar:sonar deploy \
-  -Dsonar.projectKey=JavaWebApp-Project3 \
-  -Dsonar.host.url=http://44.203.4.255:9000 \
-  -Dsonar.login=<sonarqube prject token>
+  -Dsonar.projectKey=maven-java-webapp \
+  -Dsonar.host.url=http://10.0.0.71:9000 \
+ -Dsonar.login=678f20d3b9f0ee4d5d02cd6cc0cbd07b0dd1023c
